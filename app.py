@@ -214,7 +214,7 @@ def main():
         """
         )
 
-    demo.launch()
+    app.launch()
 
 
 if __name__ == "__main__":
