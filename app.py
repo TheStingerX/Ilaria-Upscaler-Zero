@@ -12,7 +12,6 @@ from torchvision.transforms.functional import rgb_to_grayscale
 last_file = None
 img_mode = "RGBA"
 
-@spaces.GPU(duration=120)
 def realesrgan(img, model_name, denoise_strength, face_enhance, outscale):
     """Real-ESRGAN function to restore (and upscale) images.
     """
