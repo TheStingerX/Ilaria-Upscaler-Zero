@@ -173,8 +173,6 @@ def main():
 
         gr.Markdown(
             """# <div align="center"> Ilaria Upscaler 💖 </div>  
-
-        Port of [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
         """
         )
 
@@ -210,7 +208,8 @@ def main():
         # Undocumented method to clear a component's value using Javascript
 
         gr.Markdown(
-            """Made with love by Ilaria 💖 | Support me on [Ko-Fi](https://ko-fi.com/ilariaowo) | Join [AI Hub](https://discord.gg/aihub)
+            """Made with love by Ilaria 💖 | Support me on [Ko-Fi](https://ko-fi.com/ilariaowo) | Using [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+
         """
         )
 
