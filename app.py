@@ -169,7 +169,7 @@ def image_properties(img):
 
 def main():
     # Gradio Interface
-    with gr.Blocks(title="Real-ESRGAN Gradio Demo", theme="dark") as demo:
+    with gr.Blocks(theme=gr.themes.Default(primary_hue="pink", secondary_hue="rose"), title="Ilaria Upscaler 💖") as app:
 
         gr.Markdown(
             """# <div align="center"> Ilaria Upscaler 💖 </div>  
