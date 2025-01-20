@@ -8,7 +8,6 @@ from basicsr.utils.download_util import load_file_from_url
 from realesrgan import RealESRGANer
 from realesrgan.archs.srvgg_arch import SRVGGNetCompact
 from torchvision.transforms.functional import rgb_to_grayscale
-import spaces
 
 last_file = None
 img_mode = "RGBA"
