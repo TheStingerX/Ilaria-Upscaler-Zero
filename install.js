@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/TheStingerX/Ilaria-Upscaler-Zero app",
+          "git clone https://github.com/TheStingerX/Ilaria-Upscaler app",
         ]
       }
     },
